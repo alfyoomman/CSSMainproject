@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(39, 153, 170);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(39, 153, 170);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Add styles for the logo */
+header img {
+    max-width: 100px; /* Adjust the max-width as needed */
+    height: auto;
+}
+
+/* Updated CSS for the button */
+.header-button {
+    background-color: rgba(34, 125, 139, 0.5);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 7%;
+    right: 80px;
+    transform: translateY(-50%);
+    border-radius: 8%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Updated CSS for the button on hover */
+.header-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.image-container {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 134px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Add styles for the new button */
+.image-button {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(39, 153, 170);
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Add styles for the new button on hover */
+.image-button:hover {
+    background-color: rgba(34, 125, 139, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+
+footer {
+    background-color: rgb(39, 153, 170);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
